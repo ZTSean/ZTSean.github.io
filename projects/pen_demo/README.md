@@ -18,6 +18,8 @@ Q -- move pen up
 E -- move pen down  
 Z -- zoom in  
 C -- zoom out  
+P -- turn on or off Planes  
+L -- turn on or off indication line  
 Right Click & move -- rotate camera  
 Left Click & move -- move camera  
 
