@@ -1,0 +1,112 @@
+ul.side-nav.fixed li.portrait {
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 0px;
+}
+
+ul.side-nav.fixed li.portrait img {
+	max-width: 80%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+ul.side-nav.fixed li i{
+	color: white;
+	vertical-align: middle;
+	width: 25%;
+}
+
+ul.side-nav.fixed li.portrait:hover, ul.side-nav.fixed li.links:hover {
+	background-color: inherit;
+}
+
+ul.side-nav.fixed li span{
+	color: white;
+	vertical-align: middle;
+	padding: 0 15px;
+	font-weight: bold;
+}
+
+ul.side-nav.fixed li div.row{
+	text-align: center;
+	margin-bottom: 0;
+}
+
+ul.side-nav.fixed li div.row a {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+header, main, footer {
+	padding-left: 300px; 
+}
+
+@media only screen and (max-width: 992px) {
+	header, main, footer {
+		padding-left: 0px;
+	}
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.shadow-top {
+    height: 8px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr.shadow-bottom {
+    height: 8px;
+    border: 0;
+    box-shadow: inset 0 -12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-title:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	border-bottom: 4px solid #dddddd;
+}
+
+.section-title {
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.section-title span {
+	position: relative;
+	display: inline-flex;
+	padding-right: 1em;
+	background: #fff;
+	align-items: center;
+
+
+	
+}
+
+.section-title span i {
+	padding: 6px;
+	border-radius: 50%;
+	color: #dddddd;
+	border: 4px solid #dddddd;
+	margin-right: 16px;
+	font-size: 28px;
+	display: inline-block;
+}
+
+#favorite_games .card-action {
+	text-align: center;
+}
+

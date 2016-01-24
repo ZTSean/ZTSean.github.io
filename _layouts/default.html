@@ -7,14 +7,19 @@
 
     {% include header.html %}
 
-    <div >
+    <main>
       <div >
         {{ content }}
       </div>
-    </div>
+    </main>
 
     {% include footer.html %}
 
+  <script type="text/javascript">
+    $(".button-collapse").sideNav({
+      menuWidth: 300,
+    });
+  </script>
   </body>
 
 </html>

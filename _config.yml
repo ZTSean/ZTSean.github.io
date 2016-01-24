@@ -2,7 +2,7 @@
 title: Zixiao Wang
 email: wang5586@umn.edu
 description: Personal Site
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/PersonalSite" # the subpath of your site, e.g. /blog/
 
 url:  # the base hostname & protocol for your site
 twitter_username: 

@@ -1,9 +1,58 @@
-<header class="site-header">
 
-  <nav>
-    <div class="nav-wrapper light-blue lighten-1">
-      <a href="#" class="brand-logo">{{ site.title }}</a>
+<header class="site-header">
+  <nav class="grey darken-2">
+
+  <ul id="nav-mobile" class="side-nav fixed grey darken-3">
+      <li class="portrait">
+        <div><img class="circle responsive-img" src="{{ site.baseurl }}/assets/temp_protrait.jpg" alt="" /></div>
+        <a href="#" style="color: white;font-weight:bold">ZIXIAO WANG</a>
+        
+      </li>
+      <hr class="shadow-top" />
+      <li class="links">
+        <div class="row">
+          <a href="https://www.linkedin.com/in/zixiao-wang-312193105" class="col s6 waves-effect waves-teal grey darken-3"><i class="fa fa-linkedin fa-3x"></i></a>
+          <!--
+          <a href="" class="col s4 waves-effect waves-teal grey darken-3"><i class="fa fa-facebook fa-2x"></i></a>
+          -->
+          <a href="https://github.com/ZTSean" class="col s6 waves-effect waves-teal grey darken-3"><i class="fa fa-github fa-3x"></i></a>
+        </div>
+      </li>
+      <hr class="shadow-bottom" />
+      <li>
+        <a class="waves-effect wave-teal" href="{{ "/" | prepend: site.baseurl }}">
+          <i class="fa fa-home fa-2x"></i>
+          <span>HOME</span>
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect wave-teal" href="{{ "/portfolio.html" | prepend: site.baseurl }}">
+          <i class="fa fa-code fa-2x"></i>
+          <span>PORTFOLIO</span>
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect wave-teal" href="{{ "/resume.html" | prepend: site.baseurl }}">
+          <i class="fa fa-file-text fa-2x"></i>
+          <span>RESUME</span>
+        </a>
+      </li>
+    <li>
+      <a class="waves-effect wave-teal" href="{{ "/contact.html" | prepend: site.baseurl }}">
+        <i class="fa fa-user fa-2x"></i>
+        <span>CONTACT</span>
+      </a>
+    </li>  
+  </ul>
+
+  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <!--
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">{{ site.title }}</a>
+      </div>
     </div>
+    -->
   </nav>
 
   <!--
@@ -41,8 +90,9 @@
           {% endif %}
         {% endfor %}
       </div>
-      -->
+      
     </nav>
+    -->
 
   </div>
 
